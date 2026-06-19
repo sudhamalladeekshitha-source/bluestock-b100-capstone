@@ -1,0 +1,57 @@
+Department,Department,Equipment Class,Equipment Count
+Board of Electron,Elections,Van,1
+Board of Electron,Elections,Off Road Vehicle Equipment,2
+Circuit Courtroom,Court,SUV,1
+Community Engagement Cluster,Cluster,Pick Up  Trucks,8
+Community Engagement Cluster,Cluster,Off Road Vehicle Equipment,7
+Community Engagement Cluster,Cluster,SUV,2
+Community Use of Public Facility,Facilities,Sedan,1
+Community Use of Public Facility,Facilities,Sedan,1
+Consumer Preterit,Protection,Sedan,1
+Correction and Reharl,Rehabilitation,Off Road Vehicle Equipment,3
+Correction and Reharl,Rehabilitation,Public  Safety Sedan,1
+Correction and Reharl,Rehabilitation,Public  Safety SUV,2
+Correction and Reharl,Rehabilitation,SUV,3
+Correction and Reharl,Rehabilitation,Pick Up Trucks,1
+Correction and Reharl,Rehabilitation,Van,8
+Correction and Reharl,Rehabilitation,Sedan,10
+Correction and Reharl,Rehabilitation,CUV,1
+County Executives Officered,Office,Sedan,2
+County Executives Officered,Office,Public Safety SUV,3
+Economic Develop,Development,SUV,1
+Environmental Preterit,Protection,SUV,18
+Environmental Preterit,Protection,Sedan,15
+Environmental Preterit,Protection,Van,3
+Environmental Preterit,Protection,CUV,1
+Environmental Preterit,Protection,CUV,1
+Environmental Preterit,Protection,Medium Duty,2
+Environmental Preterit,Protection,Pick Up Trucks,33
+Fire and Resource,Rescue,Public Safety SUV,27
+Fire and Resource,Rescue,Public Safety Pick Up Trucks,12
+Fire and Resource,Rescue,Public Safety Pick Up Trucks,12
+Fire and Resource,Rescue,Public Safety Sedan,18
+Fire and Resource,Rescue,Public Safety Van,11
+Fire and Resource,Rescue,SUV,6
+Fire and Resource,Rescue,Van,4
+Fire and Resource,Rescue,Off Road Vehicle Equipment,2
+Fire and Resource,Rescue,Pick Up Trucks,12
+Fire and Resource,Rescue,Sedan,1
+Fire and Resource,Rescue,Public Safety CUV,4
+Fire and Resource,Rescue,Public Safety Heavy Duty,1
+Fire and Resource,Rescue,Heavy Duty,1
+Fire and Resource,Rescue,Transit Bus,1
+Fire and Resource,Rescue,Public Safety CUV,4
+General Services,Services,Public Safety Van,1
+General Services,Services,SUV,21
+General Services,Services,Public Safety Heavy Duty,1
+General Services,Services,Off Road Vehicle Equipment,45
+General Services,Services,Sedan,31
+General Services,Services,Medium Duty,3
+General Services,Services,Van,42
+General Services,Services,CUV,5
+General Services,Services,Heavy Duty,5
+General Services,Services,Pick Up Trucks,48
+Health and Human Services,Services,CUV,5
+Health and Human Services,Services,Van,15
+Health and Human Services,Services,Public Safety SUV,1
+Health and Human Services,Services,Sedan,75

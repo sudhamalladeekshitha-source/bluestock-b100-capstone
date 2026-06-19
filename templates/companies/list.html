@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row mb-3">
+    <div class="col-12">
+        <h2 class="fw-bold">All Companies</h2>
+    </div>
+</div>
+<div class="row mb-3">
+    <div class="col-12">
+        <form method="GET" class="d-flex gap-2">
+            <input type="text" name="search"
+                   class="form-control w-25"
+                   placeholder="Search company..."
+                   value="{{ request.GET.search }}">
+            <select name="sector" class="form-select w-25">
+                <option value="">All Sectors</option>
+                {% for sector in sectors %}
+                <option value="{{ sector }}"
+                    {% if selected_sector == sector %}selected{% endif %}>
+                    {{ sector }}
+                </option>
+                {% endfor %}
+            </select>
+            <button type="submit" class="btn btn-primary">
+                Filter
+            </button>
+        </form>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <table class="table table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Symbol</th>
+                    <th>Company</th>
+                    <th>Sector</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for company in companies %}
+                <tr>
+                    <td><strong>{{ company.symbol }}</strong></td>
+                    <td>{{ company.company_name }}</td>
+                    <td>
+                        <span class="badge bg-primary">
+                            {{ company.sector }}
+                        </span>
+                    </td>
+                    <td>
+                        <a href="/companies/{{ company.symbol }}/"
+                           class="btn btn-sm btn-outline-primary">
+                            View Details
+                        </a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
